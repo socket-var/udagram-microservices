@@ -5,12 +5,6 @@ import { IndexRouter } from "./controllers/v0/index.router";
 
 import bodyParser from "body-parser";
 
-console.log(
-  process.env.POSTGRESS_DB,
-  process.env.POSTGRESS_HOST,
-  process.env.POSTGRESS_USERNAME,
-  process.env.POSTGRESS_PASSWORD
-);
 import { config } from "./config/config";
 import { V0MODELS } from "./controllers/v0/model.index";
 

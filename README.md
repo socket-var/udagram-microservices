@@ -26,7 +26,7 @@ This project:
 
 ![](./screenshots/travis-ci.png)
 
-- `kubectl set image` command can be used to initiate a rolling update. An example command would look like:
+- `kubectl set image` command can be used to initiate a rolling update as follows:
 
 ```
 % kubectl set image deployments/udacity-restapi-feed udacity-restapi-feed=sakethpericherla/udacity-restapi-feed:v2

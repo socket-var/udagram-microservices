@@ -28,6 +28,7 @@ This project:
 
 ![](./screenshots/travis-ci.png)
 
+
 - The following snippet from .travis.yaml shows the steps and configuration parameters to be additionally set for doing CD using kubectl:
 
 ```yaml
@@ -60,6 +61,7 @@ install:
 - In the before install steps we need to move our kubeconfig file to $HOME path so that kubectl can read our cluster's configuration information from there.
 
 - We apply the yaml files corresponding to our microservices to deploy.
+
 
 - `kubectl set image` command can be used to initiate a rolling update as follows:
 
